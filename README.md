@@ -21,5 +21,8 @@ TMXConverter.py
 3. Enter the directory location of the .tmx files, the source language code, the target language code and the desired output format(s) separated by commas.
 4. The script will generate the specified output file formats in an "output" folder within the same directory as the .tmx files.
 
+## Important Note
+The script eliminates all control characters prior to parsing the .tmx files to prevent errors.
+
 ## License
 This project is governed by the GNU Affero General Public License v3.0. For comprehensive details, kindly refer to the LICENSE file included with this project.
